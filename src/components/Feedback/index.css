@@ -1,0 +1,130 @@
+/* Write your CSS code here. */
+* {
+  margin: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .bg-container {
+    background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .feedback-container {
+    background-color: #ffffff;
+    width: 70%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .feedback-heading {
+    font-family: Roboto;
+    font-size: 19px;
+    color: #0f172a;
+    text-align: center;
+  }
+  .emojis-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin-top: 30px;
+  }
+  .emoji-img {
+    width: 30px;
+    height: 30px;
+  }
+  .emoji-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .thankyou-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .love-img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  .thankyou-heading {
+    font-family: Roboto;
+    font-size: 19px;
+    color: #0f172a;
+    margin-bottom: 20px;
+  }
+  .thankyou-text {
+    font-family: roboto;
+    font-size: 12px;
+    color: #1e293b;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 2200px) {
+  .bg-container {
+    background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .feedback-container {
+    background-color: #ffffff;
+    width: 35%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .feedback-heading {
+    font-family: Roboto;
+    font-size: 25px;
+    color: #0f172a;
+  }
+  .emojis-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin-top: 30px;
+  }
+  .emoji-img {
+    width: 50px;
+    height: 50px;
+  }
+  .emoji-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .thankyou-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .love-img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  .thankyou-heading {
+    font-family: Roboto;
+    font-size: 19px;
+    color: #0f172a;
+    margin-bottom: 20px;
+  }
+  .thankyou-text {
+    font-family: roboto;
+    font-size: 12px;
+    color: #1e293b;
+  }
+}
